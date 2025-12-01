@@ -1,4 +1,4 @@
-# PW-bary
+# Procrustes-Wasserstein barycenters
 
 This repository contains code for:  
 [An in depth look at the Procrustes-Wasserstein distance: properties and barycenters](https://arxiv.org/abs/2507.00894)
@@ -14,3 +14,15 @@ This work introduces a formal framework for the Procrustes-Wasserstein (PW) dist
 - `Example3.ipynb`: Clustering 2D MNIST point clouds using OT metrics.
 
 For OT computation we make use of POT toolbox (Python Optimal Transport library).
+
+
+## Citation
+
+```bibtex
+@article{adamo2025depth,
+  title={An in depth look at the Procrustes-Wasserstein distance: properties and barycenters},
+  author={Adamo, Davide and Corneli, Marco and Vuillien, Manon and Vila, Emmanuelle},
+  journal={arXiv preprint arXiv:2507.00894},
+  year={2025}
+}
+```
